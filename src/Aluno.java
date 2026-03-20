@@ -8,19 +8,19 @@ public class Aluno {
     boolean aprovado;
 
     public void agendarAulaPratica() {
-        aulasPraticas +=   1;
+        aulasPraticas += 1;
     }
 
     public void cancelarAulaPratica() {
-        aulasPraticas -=   1;
+        aulasPraticas -= 1;
     }
 
     public void agendarAulaTeorica() {
-        aulasTeoricas +=   1;
+        aulasTeoricas += 1;
     }
 
     public void cancelarAulaTeorica() {
-        aulasTeoricas -=   1;
+        aulasTeoricas -= 1;
     }
 
     public void realizarExame() {

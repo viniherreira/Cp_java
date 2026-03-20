@@ -31,6 +31,6 @@ public class AutoEscola {
         System.out.println("Aluno 4: " + aluno4.nome);
         System.out.println("Aulas Teóricas: " + aluno4.aulasTeoricas);
         System.out.println("Aulas Práticas: " + aluno4.aulasPraticas);
-        System.out.println("Aprovado: " + aluno4.aprovado);
+        System.out.println("A " + aluno4.aprovado);
     }
 }

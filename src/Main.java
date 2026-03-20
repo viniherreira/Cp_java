@@ -9,9 +9,8 @@ public class Main {
         aluno1.aulasTeoricas = 10;
 
         aluno1.agendarAulaPratica();
-        aluno1.cancelarAulaPratica();
         aluno1.agendarAulaTeorica();
-        aluno1.cancelarAulaTeorica();
+
         aluno1.realizarExame();
 
 
@@ -22,9 +21,8 @@ public class Main {
         aluno2.aulasPraticas = 33;
         aluno2.aulasTeoricas = 17;
 
-        aluno2.agendarAulaPratica();
+
         aluno2.cancelarAulaPratica();
-        aluno2.agendarAulaTeorica();
         aluno2.cancelarAulaTeorica();
         aluno2.realizarExame();
 

@@ -12,15 +12,17 @@ public class Aluno {
     }
 
     public void cancelarAulaPratica() {
-        aulasPraticas -= 1;
+        if (aulasPraticas > 0 )
+            aulasPraticas --;
     }
 
     public void agendarAulaTeorica() {
-        aulasTeoricas += 1;
+       aulasTeoricas += 1;
     }
 
     public void cancelarAulaTeorica() {
-        aulasTeoricas -= 1;
+        if (aulasTeoricas > 0 )
+            aulasTeoricas --;
     }
 
     public void realizarExame() {

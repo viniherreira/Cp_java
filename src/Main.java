@@ -43,8 +43,8 @@ public class Main {
         aluno4.nome = "Lucas";
         aluno4.idade = 18;
         aluno4.tipoVeiculo = "carro";
-        aluno4.aulasPraticas = 1;
-        aluno4.aulasTeoricas = 3;
+        aluno4.aulasPraticas = 6;
+        aluno4.aulasTeoricas = 0;
 
         aluno4.agendarAulaPratica();
         aluno4.cancelarAulaTeorica();

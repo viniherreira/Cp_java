@@ -25,10 +25,10 @@ public class Aluno {
 
     public void realizarExame() {
         if (aulasTeoricas >= 5 && aulasPraticas >= 5) {
-            aprovado = true ;
-        } else  {
+            aprovado = Math.random() > 0.5;
+        } else {
+            System.out.println(nome + " não pode fazer o exame");
             aprovado = false;
         }
-
     }
 }
